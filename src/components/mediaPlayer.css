@@ -1,0 +1,134 @@
+.mp {
+  text-align: center;
+  max-width: 70rem;
+  height: 29rem;
+  width: 90%;
+  margin: auto;
+  margin-top: 10rem;
+  background-color: #383838;
+  color: white;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.containers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mp h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.audio-container {
+  text-align: center;
+  height: 19rem;
+  width: 45%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 1rem;
+  background-color: #817f7f;
+  color: white;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.player-container {
+  text-align: center;
+  height: 19rem;
+  width: 45%;
+  margin-right: 10px;
+  margin-top: 1rem;
+  background-color: #817f7f;
+  color: white;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.player-controls-container {
+  text-align: center;
+  justify-content: space-around;
+  /* align-items: baseline; */
+  height: 4rem;
+  width: 98%;
+  margin-left: 10px;
+  margin-top: 1rem;
+  padding-top: 5px;
+  background-color: #817f7f;
+  color: white;
+  border-radius: 14px;
+}
+
+.buttons {
+  background-color: none;
+  width: 20%;
+}
+.btn {
+  border-radius: 14px;
+  background-color: #d4d4d4;
+}
+
+.time {
+  border-radius: 14px;
+  background-color: #d4d4d4;
+  width: 70%;
+  height: 2.4rem;
+  padding-top: 17px;
+}
+
+.audio-item {
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #d4d4d4;
+  width: 93%;
+  height: 2.1rem;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.player-item {
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #d4d4d4;
+  width: 92%;
+  height: 1.8rem;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 2px;
+  }
+
+.name-of-sound {
+  display: contents;
+  color: black;
+}
+
+.sound-btn {
+  height: 18px;
+  width: 20px;
+}
+
+.pushed {
+  border-radius: 14px;
+  background-color: #696868;
+}
+
+.audio { 
+  width:100%; 
+  height: 100%;
+  border: 2px solid black;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
