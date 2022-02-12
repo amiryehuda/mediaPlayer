@@ -48,7 +48,7 @@ export const LoopProvider = ({ children }) => {
 
   return (
     <LoopContext.Provider
-      value={{ playSound, loopAgain, stopSound, handleAudioMute, allSounds }}
+      value={{ playSound, loopAgain, stopSound, handleAudioMute }}
     >
       {children}
     </LoopContext.Provider>
