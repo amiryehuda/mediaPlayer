@@ -14,7 +14,7 @@ export const LoopProvider = ({ children }) => {
     });
   };
 
-  //Stop function (and go back to start)
+  //Stop function (and reset)
   const stopSound = () => {
     arrayOfPlaySounds.forEach((soundIndex,index) => {
       sounds[index].sound.pause();
@@ -22,6 +22,7 @@ export const LoopProvider = ({ children }) => {
     });
   };
 
+  //Plays the music again if the button is pressed
   const loopAgain = (status) => {
     if (status) {
       arrayOfPlaySounds.forEach((soundIndex,index) => {
@@ -44,9 +45,6 @@ export const LoopProvider = ({ children }) => {
     }
   };
 
-  const allSounds =() => {
-    return sounds;
-  }
 
   return (
     <LoopContext.Provider

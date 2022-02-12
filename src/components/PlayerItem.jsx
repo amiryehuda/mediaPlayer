@@ -1,6 +1,4 @@
 import './mediaPlayer.css';
-import { Component } from 'react/cjs/react.development';
-import { useState } from "react";
 import { useLoopContext } from '../LoopProvider';
 
 function PlayerItem(props){

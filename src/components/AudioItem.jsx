@@ -11,6 +11,7 @@ function AudioItem(props) {
   const [icon, setIcon] = useState(soundImg);
   const [isSound, setIsSound] = useState(false);
 
+  //change mute icon
   useEffect(() => {
     if (isSound) {
       setIcon(muteImg);

@@ -9,7 +9,6 @@ import { useLoopContext } from "../LoopProvider";
 const PlayerControl = () => {
   const loopContext = useLoopContext();
 
-  const progressBar = useRef();
   const [classN, setClassN] = useState("btn");
   const [isLoop, setIsLoop] = useState(false);
 

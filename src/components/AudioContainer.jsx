@@ -2,7 +2,7 @@ import './mediaPlayer.css';
 import React, { Component } from 'react/cjs/react.production.min';
 import AudioItem from './AudioItem';
 
-//Left side - contains the playback files 
+//Left side - contains the channel files 
 function AudioContainer({ sounds }) {
     return (
         <section className="audio-container">
